@@ -5,8 +5,8 @@ import time
 
 driver = webdriver.Chrome(ChromeDriverManager().install())
 
-driver.get('https://shopee.tw/mall/%E5%B1%85%E5%AE%B6%E7%94%9F%E6%B4%BB-cat.11040925')
-time.sleep(5)
+driver.get('https://shopee.tw/mall/%E6%9B%B8%E7%B1%8D%E5%8F%8A%E9%9B%9C%E8%AA%8C%E6%9C%9F%E5%88%8A-cat.11041120')
+time.sleep(2)
 
 cards = driver.find_elements(By.CSS_SELECTOR, 'div[class="col-xs-2 recommend-products-by-view__item-card-wrapper"]')
 
